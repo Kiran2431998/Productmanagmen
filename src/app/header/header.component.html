@@ -1,0 +1,23 @@
+<nav class="nav">
+    <h1> <a routerLink="/"> Product Management </a></h1>
+
+    <div *ngIf="menuType==='default'" class="nav-search">
+        <input type="text" name="" id="" placeholder="Search for Products">
+        <button>Search</button>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <a routerLink="/seller-home">Product List</a>
+            </li>
+            <li>
+                <a routerLink="seller-add-product">Add Product</a>
+            </li>
+            
+
+        </ul>
+
+       
+    </div>
+
+</nav>
